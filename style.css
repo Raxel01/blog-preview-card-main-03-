@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.attribution a {
+  color: hsl(0, 0%, 96%);
+}
+
+.white-border {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 220px 110px 75px 75px;
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  border: 1px solid black;
+  box-shadow: 9px 10px 0px;
+  width: 35rem;
+  height: 50rem;
+}
+
+.all-data {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.yellow-image {
+  margin-top: 18px;
+  border-radius: 3rem;
+}
+
+.learn-pub {
+  align-self: start;
+  justify-self: start;
+  padding-left: 1rem;
+}
+
+.Learning {
+  color: rgb(4, 4, 0);
+  font-family:  "Figtree",sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background-color: hsl(47, 77%, 54%);
+  display: inline-block;
+  border: 1rem solid  hsl(47, 77%, 54%);
+  border-radius: 0.3rem;
+}
+
+.Publishing{
+    margin-top: 1.2rem;
+    font-size: 1.4rem;
+    font-family:  "Figtree",sans-serif;
+}
+
+.Language h1{
+    font-family:  "Figtree",sans-serif;
+    margin-top: 1.7rem;
+}
+
+.definition-image{
+  align-self: start;
+  justify-self: start;
+  padding-left: 1rem;
+}
+
+.definition-image h2{
+    line-height: 2.3rem;
+    font-size: 1.4rem;
+    font-family:  "Figtree", sans-serif;
+    word-spacing: 0.2rem;
+    color: hsl(0, 0%, 68%);
+}
+
+.author-details{
+    display: flex;
+    gap: 1rem;
+    align-self: center;
+    justify-self: start;
+    padding-left: 1rem;
+    margin-bottom: 2rem;;
+
+}
+
+.author-name{
+    font-size: 1rem;
+    font-family:  "Figtree",sans-serif;
+    font-weight: bold;
+    align-self: center;
+}
+.author-image{
+    width: 4.5rem;
+}
+
+
+
